@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
+9//    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
 package _07_animal_farm;
@@ -67,6 +67,7 @@ public class AnimalFarm {
 	/* Ignore this stuff */
 	
 	public static void playNoise(String soundFile) {
+		System.out.println(soundFile);
 		try {
 			AudioClip sound = JApplet.newAudioClip(AnimalFarm.class.getResource(soundFile));
 			sound.play();
