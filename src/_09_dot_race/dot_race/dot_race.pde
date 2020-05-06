@@ -5,6 +5,10 @@ void setup() {
 }
 
 void draw() {
+  fill(#00FFD2);
+  ellipse(60,60,60,60);
+  
+  
     //3. make the ellipse a nice color
 
     //4. If the mouse is pressed change the X co-ordinate so that the dot moves to the right
@@ -17,13 +21,4 @@ void draw() {
     //6. Use the playSound() method to play a ding when your dot crosses the finish line. 
 }
 
-import ddf.minim.*;
-boolean soundPlayed = false;
-void playSound() {
-    if (!soundPlayed) {
-        Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("ding.wav");
-        sound.trigger();
-        soundPlayed = true;
-    }
-}
+    
