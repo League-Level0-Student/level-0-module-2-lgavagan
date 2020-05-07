@@ -1,8 +1,7 @@
 void draw() {
-
 /* Use the method below to put moles in the holes. */
-
-
+ellipse(100,85,60 , 50);
+fill(#745C5C);
 }
 
 void drawMole(int moleX, int moleY) {

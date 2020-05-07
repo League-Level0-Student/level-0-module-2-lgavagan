@@ -1,13 +1,16 @@
 //1. Make a variable to hold the X co-ordinate of the dot and set it to 50.
-
+  int x=60;
+  int y=60;
 void setup() {
     size(800, 200);
 }
 
 void draw() {
+  background(#FF0335);
   fill(#00FFD2);
-  ellipse(60,60,60,60);
-  
+  ellipse(x,y,60,60);
+  if(mousePressed){
+    x+=3;}
   
     //3. make the ellipse a nice color
 
